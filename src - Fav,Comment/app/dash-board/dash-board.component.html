@@ -1,0 +1,22 @@
+  <!-- <div class="bgimg">
+    <nav class="col-md-10 mx-auto bg-warning p-2 row">
+        <a class="nav-link ml-4 text-red" routerLink="fav" > FavList</a>
+        <a class="nav-link ml-4 text-red" routerLink="edit" > Edit Profile/ChangePass</a>
+        <a class="nav-link ml-4 text-red" routerLink="search" > Search</a>
+        </nav>
+        <router-outlet></router-outlet>
+</div>  -->
+
+<div class="bgimg">
+    <div class="example-button-row">
+        <!-- <div class="alert alert-success" *ngIf="msg !=undefined"> {{msg}}</div> -->
+       <div class="alert alert-success">
+       
+           <mat-card-title>Welcome to login view of music app,user login sucess</mat-card-title>
+           <!-- <mat-card-title>Hello: {{abc}}</mat-card-title> -->
+        </div> 
+      <button class="btn btn-primary"  (click)="gotoFavList()">FavList</button><br>
+      <button class="btn btn-warning"  (click)="gotoEditProfile()">EditProfile</button><br>
+      
+    </div>
+</div>
